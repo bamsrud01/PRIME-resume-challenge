@@ -1,57 +1,105 @@
-/* Colors
+/* Colors:
   Light grey: #CCCCCC
   White: #FFFFFF
   Blue: #003366
   Tan: #CCCC9A
 */
-body { margin:0px; padding:0px; }
+
+* {font-family: Cambria;}
+
+body { margin:0px; padding:0px; background-color: #CCCCCC;}
+
 #content {
-  background-color: skyblue;
+  background-color: #FFFFFF;
   width: 1100px;
   margin: auto;
+  border-left: 10px solid #003366;
+  border-right: 10px solid #003366;
+  border-bottom: 10px solid #003366;
 }
 
-#topleft {
-  float: left;
-  width: 34%;
-}
+#topleft {float: left; width: 34%;}
 
 #topleft img {
-  height: 300px;
+  height: 330px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  border: 10px solid #003366;
+  border-radius:30px;
+  margin-top: 10px;
 }
 
 #topright {
   float: right;
   width: 65%;
+  border-radius: 25px;
+  height: 350px;
+  margin-bottom: 10px;
 }
 
-#overview {
-  clear: both;
-}
+#overview {clear: both; margin-top: 10px;}
 
-div {
-  border: 1px dashed red;
-}
-
-* {
-  font-family: Cambria;
-}
+h1 {text-align: center; font-size: 50px; margin-top: 15px; margin-bottom: 15px; margin-right: 20px;}
 
 h2, h3, h4, ul, li, p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
+h1, h2 {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  margin-bottom: 10px;
+}
 .section {
   margin: 15px;
-  background-color: orange;
+  padding: 20px;
+  border-radius: 25px;
 }
 
 .position {
-  background-color: yellow;
+  background-color: #dbe4f0;
   margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .date {
 	float: right;
 }
+
+li img {height:35px;margin-top:10px;}
+
+#contact-info {display: inline;}
+#contact-info ul {list-style: none;}
+#contact-info ul li p {display: inline-block; font-size: 14px; vertical-align: middle;}
+
+#column-content {
+  display: inline-block;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar {
+	float: left;
+	width: 80%;
+	margin-top: 0px;
+	margin-left: 70px;
+}
+
+#contact-info li {
+	display: inline;
+}
+
+.navbar ul li {
+	margin-right: 20px;
+	font-size: 14px;
+	height: 25px;
+	line-height: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.duties ul li {list-style: square;}
