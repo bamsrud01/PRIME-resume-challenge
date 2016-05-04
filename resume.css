@@ -1,13 +1,19 @@
 /* Colors:
   Light grey: #CCCCCC
-  White: #FFFFFF
-  Blue: #003366
+  Light blue: #DBE4F0
+  Dark Blue: #003366
   Tan: #CCCC9A
 */
 
 * {font-family: Cambria;}
 
+h2, h3, h4, ul, li, p {	margin-top: 0px; margin-bottom: 0px;}
+
+h1, h2 {color: #003366; border-bottom: 2px solid #003366; margin-bottom: 10px;}
+
 body { margin:0px; padding:0px; background-color: #CCCCCC;}
+
+h1 {text-align: center; font-size: 50px; margin-top: 15px; margin-bottom: 15px; margin-right: 20px;}
 
 #content {
   background-color: #FFFFFF;
@@ -38,60 +44,19 @@ body { margin:0px; padding:0px; background-color: #CCCCCC;}
   margin-bottom: 10px;
 }
 
-#overview {clear: both; margin-top: 10px;}
-
-h1 {text-align: center; font-size: 50px; margin-top: 15px; margin-bottom: 15px; margin-right: 20px;}
-
-h2, h3, h4, ul, li, p {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-h1, h2 {
-  color: #003366;
-  border-bottom: 2px solid #003366;
-  margin-bottom: 10px;
-}
-.section {
-  margin: 15px;
-  padding: 20px;
-  border-radius: 25px;
-}
-
-.position {
-  background-color: #dbe4f0;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.date {
-	float: right;
-}
-
 li img {height:35px;margin-top:10px;}
 
 #contact-info {display: inline;}
+
 #contact-info ul {list-style: none;}
+
+#contact-info li {display: inline;}
+
 #contact-info ul li p {display: inline-block; font-size: 14px; vertical-align: middle;}
 
-#column-content {
-  display: inline-block;
-}
-img {
-  display: inline-block;
-  vertical-align: middle;
-}
-.navbar {
-	float: left;
-	width: 80%;
-	margin-top: 0px;
-	margin-left: 70px;
-}
+img {display: inline-block; vertical-align: middle;}
 
-#contact-info li {
-	display: inline;
-}
+.navbar {float: left;	width: 80%;	margin-top: 0px; margin-left: 70px;}
 
 .navbar ul li {
 	margin-right: 20px;
@@ -101,5 +66,13 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+#overview {clear: both; margin-top: 10px;}
+
+.section {margin: 15px; padding: 20px; border-radius: 25px;}
+
+.position {background-color: #DBE4F0; margin: 10px; padding: 10px; border-radius: 5px;}
+
+.date {float: right;}
 
 .duties ul li {list-style: square;}
